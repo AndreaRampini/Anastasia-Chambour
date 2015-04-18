@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADEFC3F1AE278900088791A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EADEFC3E1AE278900088791A /* main.m */; };
+		EADEFC421AE278900088791A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EADEFC411AE278900088791A /* AppDelegate.m */; };
+		EADEFC451AE278900088791A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EADEFC441AE278900088791A /* ViewController.m */; };
+		EADEFC481AE278900088791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADEFC461AE278900088791A /* Main.storyboard */; };
+		EADEFC4A1AE278900088791A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADEFC491AE278900088791A /* Images.xcassets */; };
+		EADEFC4D1AE278900088791A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EADEFC4B1AE278900088791A /* LaunchScreen.xib */; };
+		EADEFC591AE278900088791A /* Anastasia_ChambourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EADEFC581AE278900088791A /* Anastasia_ChambourTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADEFC531AE278900088791A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADEFC311AE2788F0088791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADEFC381AE2788F0088791A;
+			remoteInfo = "Anastasia Chambour";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADEFC391AE2788F0088791A /* Anastasia Chambour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anastasia Chambour.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADEFC3D1AE278900088791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADEFC3E1AE278900088791A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EADEFC401AE278900088791A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EADEFC411AE278900088791A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EADEFC431AE278900088791A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EADEFC441AE278900088791A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EADEFC471AE278900088791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADEFC491AE278900088791A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EADEFC4C1AE278900088791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EADEFC521AE278900088791A /* Anastasia ChambourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anastasia ChambourTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADEFC571AE278900088791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADEFC581AE278900088791A /* Anastasia_ChambourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anastasia_ChambourTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADEFC361AE2788F0088791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADEFC4F1AE278900088791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADEFC301AE2788F0088791A = {
+			isa = PBXGroup;
+			children = (
+				EADEFC3B1AE2788F0088791A /* Anastasia Chambour */,
+				EADEFC551AE278900088791A /* Anastasia ChambourTests */,
+				EADEFC3A1AE2788F0088791A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADEFC3A1AE2788F0088791A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADEFC391AE2788F0088791A /* Anastasia Chambour.app */,
+				EADEFC521AE278900088791A /* Anastasia ChambourTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADEFC3B1AE2788F0088791A /* Anastasia Chambour */ = {
+			isa = PBXGroup;
+			children = (
+				EADEFC401AE278900088791A /* AppDelegate.h */,
+				EADEFC411AE278900088791A /* AppDelegate.m */,
+				EADEFC431AE278900088791A /* ViewController.h */,
+				EADEFC441AE278900088791A /* ViewController.m */,
+				EADEFC461AE278900088791A /* Main.storyboard */,
+				EADEFC491AE278900088791A /* Images.xcassets */,
+				EADEFC4B1AE278900088791A /* LaunchScreen.xib */,
+				EADEFC3C1AE2788F0088791A /* Supporting Files */,
+			);
+			path = "Anastasia Chambour";
+			sourceTree = "<group>";
+		};
+		EADEFC3C1AE2788F0088791A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADEFC3D1AE278900088791A /* Info.plist */,
+				EADEFC3E1AE278900088791A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EADEFC551AE278900088791A /* Anastasia ChambourTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADEFC581AE278900088791A /* Anastasia_ChambourTests.m */,
+				EADEFC561AE278900088791A /* Supporting Files */,
+			);
+			path = "Anastasia ChambourTests";
+			sourceTree = "<group>";
+		};
+		EADEFC561AE278900088791A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EADEFC571AE278900088791A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADEFC381AE2788F0088791A /* Anastasia Chambour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADEFC5C1AE278900088791A /* Build configuration list for PBXNativeTarget "Anastasia Chambour" */;
+			buildPhases = (
+				EADEFC351AE2788F0088791A /* Sources */,
+				EADEFC361AE2788F0088791A /* Frameworks */,
+				EADEFC371AE2788F0088791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anastasia Chambour";
+			productName = "Anastasia Chambour";
+			productReference = EADEFC391AE2788F0088791A /* Anastasia Chambour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADEFC511AE278900088791A /* Anastasia ChambourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADEFC5F1AE278900088791A /* Build configuration list for PBXNativeTarget "Anastasia ChambourTests" */;
+			buildPhases = (
+				EADEFC4E1AE278900088791A /* Sources */,
+				EADEFC4F1AE278900088791A /* Frameworks */,
+				EADEFC501AE278900088791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADEFC541AE278900088791A /* PBXTargetDependency */,
+			);
+			name = "Anastasia ChambourTests";
+			productName = "Anastasia ChambourTests";
+			productReference = EADEFC521AE278900088791A /* Anastasia ChambourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADEFC311AE2788F0088791A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Andrea Rampini";
+				TargetAttributes = {
+					EADEFC381AE2788F0088791A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EADEFC511AE278900088791A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EADEFC381AE2788F0088791A;
+					};
+				};
+			};
+			buildConfigurationList = EADEFC341AE2788F0088791A /* Build configuration list for PBXProject "Anastasia Chambour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADEFC301AE2788F0088791A;
+			productRefGroup = EADEFC3A1AE2788F0088791A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADEFC381AE2788F0088791A /* Anastasia Chambour */,
+				EADEFC511AE278900088791A /* Anastasia ChambourTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADEFC371AE2788F0088791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADEFC481AE278900088791A /* Main.storyboard in Resources */,
+				EADEFC4D1AE278900088791A /* LaunchScreen.xib in Resources */,
+				EADEFC4A1AE278900088791A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADEFC501AE278900088791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADEFC351AE2788F0088791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADEFC451AE278900088791A /* ViewController.m in Sources */,
+				EADEFC421AE278900088791A /* AppDelegate.m in Sources */,
+				EADEFC3F1AE278900088791A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADEFC4E1AE278900088791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADEFC591AE278900088791A /* Anastasia_ChambourTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADEFC541AE278900088791A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADEFC381AE2788F0088791A /* Anastasia Chambour */;
+			targetProxy = EADEFC531AE278900088791A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADEFC461AE278900088791A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADEFC471AE278900088791A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADEFC4B1AE278900088791A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADEFC4C1AE278900088791A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADEFC5A1AE278900088791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EADEFC5B1AE278900088791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADEFC5D1AE278900088791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Anastasia Chambour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EADEFC5E1AE278900088791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Anastasia Chambour/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EADEFC601AE278900088791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Anastasia ChambourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anastasia Chambour.app/Anastasia Chambour";
+			};
+			name = Debug;
+		};
+		EADEFC611AE278900088791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Anastasia ChambourTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anastasia Chambour.app/Anastasia Chambour";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADEFC341AE2788F0088791A /* Build configuration list for PBXProject "Anastasia Chambour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADEFC5A1AE278900088791A /* Debug */,
+				EADEFC5B1AE278900088791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADEFC5C1AE278900088791A /* Build configuration list for PBXNativeTarget "Anastasia Chambour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADEFC5D1AE278900088791A /* Debug */,
+				EADEFC5E1AE278900088791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EADEFC5F1AE278900088791A /* Build configuration list for PBXNativeTarget "Anastasia ChambourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADEFC601AE278900088791A /* Debug */,
+				EADEFC611AE278900088791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADEFC311AE2788F0088791A /* Project object */;
+}
